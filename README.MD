@@ -89,6 +89,9 @@ $data = [
 
 //导出到文件
 $fatExcel->exportToFile($data, '/path/to/excel', $header);
+
+//直接下载
+$fatExcel->exportDownload($data, '开不了机让她知道.xlsx', $header);
 ```
 
 对于`$header`数组的每项key和value，key将作为表头写入表格，此列的其他单元格将按照value定义的格式进行写入。
