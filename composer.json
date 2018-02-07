@@ -1,0 +1,26 @@
+{
+    "name": "tianhe1986/fatexcel",
+    "type": "library",
+    "description": "excel fast import/export for huge datas",
+    "keywords": ["excel", "fast", "import", "export", "huge"],
+    "license": "MIT",
+    "homepage": "https://github.com/tianhe1986/FatExcel",
+    "require": {
+        "php": ">=5.5",
+        "mk-j/php_xlsxwriter": "^0.37.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FatExcel\\": "src/"
+        },
+        "classmap": ["src/SpreadsheetReader"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FatExcel\\Tests\\": "tests/"
+        }
+    }
+}
