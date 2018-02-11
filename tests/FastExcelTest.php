@@ -1,6 +1,6 @@
 <?php
 
-namespace Yoka\Tests;
+namespace FatExcel\Tests;
 
 use PHPUnit\Framework\TestCase;
 use FatExcel\FatExcel;
